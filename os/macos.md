@@ -42,3 +42,9 @@ brew install --cask font-fira-code
 2. Install **[oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh#basic-installation)**, a zsh plugin manager
 3. Install my custom [oh-my-zsh configuration](https://github.com/kael89/ohmyzsh-config#setup)
 4. Install **[Powerlevel10k](https://github.com/romkatv/powerlevel10k#oh-my-zsh)**, an oh-my-zsh theme
+
+## JavaScript/TypeScript
+
+1. Install **[nvm](https://github.com/nvm-sh/nvm#installing-and-updating)** for managing node versions
+2. Use `nvm` to nstall a node version of your choice, eg `nvm install 12`. This will also install `npm`
+3. Install **[yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)**: `npm install --global yarn`
