@@ -15,6 +15,14 @@
 
 Install **[Rectangle](https://rectangleapp.com/)**: `brew install --cask rectangle`
 
+### Clipboard Management
+
+1. Install **[Clipy](https://github.com/Clipy/Clipy)**: `brew install --cask clipy`
+2. Open Clipy, go to **Preferences -> Menu** and change the settings as follows:
+
+   - **Number of items place _(sic)_ inline:** 10
+   - **Number of characters in the menu:** 40
+
 ## Packet Management
 
 Install **[brew](https://brew.sh/)**
@@ -46,5 +54,5 @@ brew install --cask font-fira-code
 ## JavaScript/TypeScript
 
 1. Install **[nvm](https://github.com/nvm-sh/nvm#installing-and-updating)** for managing node versions
-2. Use `nvm` to nstall a node version of your choice, eg `nvm install 12`. This will also install `npm`
+2. Use `nvm` to nstall a node version of your choice, e.g. `nvm install 12`. This will also install `npm`
 3. Install **[yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)**: `npm install --global yarn`
