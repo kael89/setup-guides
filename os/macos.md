@@ -51,6 +51,22 @@ brew install --cask font-fira-code
 3. Install my custom [oh-my-zsh configuration](https://github.com/kael89/ohmyzsh-config#setup)
 4. Install **[Powerlevel10k](https://github.com/romkatv/powerlevel10k#oh-my-zsh)**, an oh-my-zsh theme
 
+## IDE
+
+### Visual Studio Code
+
+1. Run `brew install --cask visual-studio-code` to install VSCode
+2. Turn on Settings Sync:
+
+   - Open the app and go to **Code -> Preferences -> Turn on Settings Sync...**
+   - Sign in using your GitHub account
+   - If you are syncing a new machine and are prompted to merge/replace your settings, you can use "Replace Local"
+
+   Note: with the exception of keybindings, VSCode currently does not support [platform-specific settings](https://github.com/microsoft/vscode/issues/5595). We thus have to manually update the following settings and [prevent them from syncing](https://code.visualstudio.com/docs/editor/settings-sync#_configuring-synced-data) in our MacOS machine:
+
+   - **Editor: Font Family:** add `'FiraMono Nerd Font'` at the start of the list
+   - **Terminal > Integrated: Font Family:** `'FiraMono Nerd Font'`
+
 ## JavaScript/TypeScript
 
 1. Install **[nvm](https://github.com/nvm-sh/nvm#installing-and-updating)** for managing node versions
