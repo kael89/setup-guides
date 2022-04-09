@@ -23,7 +23,7 @@ Install **[Rectangle](https://rectangleapp.com/)**: `brew install --cask rectang
    - **Number of items place _(sic)_ inline:** 10
    - **Number of characters in the menu:** 40
 
-## Packet Management
+## Packet Manager
 
 Install **[brew](https://brew.sh/)**
 
@@ -41,7 +41,7 @@ brew install --cask font-fira-code
 ### Terminal app
 
 1. Install **[iTerm2](https://iterm2.com/)**: `brew install --cask iterm2`
-2. Open iTerm2 preferences (**iTerm2 → Preferences** or **Cmd + ,**). Select **Profiles** and edit the default profile as follows:
+2. Open iTerm2, go to **Preferences -> Profiles** and edit the default profile as follows:
    - **Text → Font**: FiraMono Nerd Font Mono
    - **Terminal → Scrollback lines**: 5,000
 
