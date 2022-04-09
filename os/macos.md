@@ -23,7 +23,7 @@ Install **[Rectangle](https://rectangleapp.com/)**: `brew install --cask rectang
    - **Number of items place _(sic)_ inline:** 10
    - **Number of characters in the menu:** 40
 
-## Packet Manager
+## Packet Management
 
 Install **[brew](https://brew.sh/)**
 
@@ -56,14 +56,14 @@ brew install --cask font-fira-code
 
 ### Visual Studio Code
 
-1. Run `brew install --cask visual-studio-code` to install VSCode
+1. Install **[VSCode](https://code.visualstudio.com/)**: `choco install vscode`
 2. Turn on Settings Sync:
 
    - Open the app and go to **Code -> Preferences -> Turn on Settings Sync...**
    - Sign in using your GitHub account
    - If you are syncing a new machine and are prompted to merge/replace your settings, you can use "Replace Local"
 
-   Note: with the exception of keybindings, VSCode currently does not support [platform-specific settings](https://github.com/microsoft/vscode/issues/5595). We thus have to manually update the following settings and [prevent them from syncing](https://code.visualstudio.com/docs/editor/settings-sync#_configuring-synced-data) in our MacOS machine:
+   Note: with the exception of keybindings, VSCode currently does not support [platform-specific settings](https://github.com/microsoft/vscode/issues/5595). Thus, we have to manually update the following settings to [prevent them from syncing](https://code.visualstudio.com/docs/editor/settings-sync#_configuring-synced-data) in our machine:
 
    - **Editor: Font Family:** add `'FiraMono Nerd Font'` at the start of the list
    - **Terminal > Integrated: Font Family:** `'FiraMono Nerd Font'`
