@@ -6,8 +6,9 @@
 
 1. Install **[CopyQ](https://copyq.readthedocs.io/en/latest/)**: `choco install copyq`
 2. Open CopyQ, go to **Preferences** and change the settings as follows:
-  - **Shortcuts:** set the shortcut for **Show/hide main window** to `Ctrl + Shift + V`:
-  - **Notifications:** change **Maximum width**/**Maximum height** to as desired _(optional)_
+
+   - **Shortcuts:** set the shortcut for **Show/hide main window** to `Ctrl + Shift + V`:
+   - **Notifications:** change **Maximum width**/**Maximum height** to as desired _(optional)_
 
 ## Packet Management
 
@@ -15,7 +16,7 @@ Install **[Chocolatey](https://docs.chocolatey.org/en-us/choco/setup#installing-
 
 ## Monospace Font
 
-Install **[Fira Code Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode)**: `choco install firacode`
+Install **[Fira Code](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode)**: `choco install firacode`
 
 ## Terminal
 

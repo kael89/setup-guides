@@ -29,7 +29,7 @@ Install **[brew](https://brew.sh/)**
 
 ## Monospace Font
 
-Install **[Fira Code Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode):**
+Install **[Fira Code](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode):**
 
 ```bash
 brew tap homebrew/cask-fonts
