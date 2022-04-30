@@ -1,5 +1,9 @@
 # Setting up a Windows dev environment
 
+## Packet Management
+
+Install **[Chocolatey](https://docs.chocolatey.org/en-us/choco/setup#installing-chocolatey)**
+
 ## OS configuration
 
 ### Clipboard Management
@@ -9,10 +13,6 @@
 
    - **Shortcuts:** set the shortcut for **Show/hide main window** to `Ctrl + Shift + V`:
    - **Notifications:** change **Maximum width**/**Maximum height** to as desired _(optional)_
-
-## Packet Management
-
-Install **[Chocolatey](https://docs.chocolatey.org/en-us/choco/setup#installing-chocolatey)**
 
 ## Monospace Font
 

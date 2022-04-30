@@ -2,6 +2,10 @@
 
 _Version: Ubuntu 20.04_
 
+## Packet Management
+
+We will use `apt`/`apt-get`, which is installed in Ubuntu by default.
+
 ## OS configuration
 
 ### Window Management
@@ -9,10 +13,6 @@ _Version: Ubuntu 20.04_
 ### Clipboard Management
 
 Install **[CopyQ](https://github.com/hluk/CopyQ#debian-10-ubuntu-1804-and-their-derivatives/)**
-
-## Packet Management
-
-We will use `apt`/`apt-get`, which is installed in Ubuntu by default.
 
 ## Monospace Font
 

@@ -1,5 +1,9 @@
 # Setting up a MacOS dev environment
 
+## Packet Management
+
+Install **[brew](https://brew.sh/)**
+
 ## OS configuration
 
 ### Keyboard
@@ -22,10 +26,6 @@ Install **[Rectangle](https://rectangleapp.com/)**: `brew install --cask rectang
 
    - **Number of items place _(sic)_ inline:** 10
    - **Number of characters in the menu:** 40
-
-## Packet Management
-
-Install **[brew](https://brew.sh/)**
 
 ## Monospace Font
 
