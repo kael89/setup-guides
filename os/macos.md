@@ -85,5 +85,5 @@ brew install --cask font-fira-code
 ## JavaScript/TypeScript
 
 1. Install **[nvm](https://github.com/nvm-sh/nvm#installing-and-updating)** for managing node versions
-2. Use `nvm` to install a node version of your choice, e.g. `nvm install 12`. This will also install `npm`
+2. Use `nvm` to install a node version of your choice, e.g. `nvm install 16`. This will also install `npm`
 3. Install **[yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)**: `npm install --global yarn`
