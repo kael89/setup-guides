@@ -2,7 +2,7 @@
 
 _Version: Ubuntu 20.04_
 
-## Packet Management
+## Packet manager
 
 We will use `apt`/`apt-get`, which is installed in Ubuntu by default.
 
@@ -10,11 +10,11 @@ We will use `apt`/`apt-get`, which is installed in Ubuntu by default.
 
 ### Window Management
 
-### Clipboard Management
+### Clipboard manager
 
 Install **[CopyQ](https://github.com/hluk/CopyQ#debian-10-ubuntu-1804-and-their-derivatives/)**
 
-## Monospace Font
+## Monospace font
 
 Install **[Fira Code](https://github.com/tonsky/FiraCode/wiki/Linux-instructions#ubuntu-zesty-1704-debian-stretch-9-or-newer)**
 

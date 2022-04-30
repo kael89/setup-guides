@@ -1,12 +1,12 @@
 # Setting up a Windows dev environment
 
-## Packet Management
+## Packet manager
 
 Install **[Chocolatey](https://docs.chocolatey.org/en-us/choco/setup#installing-chocolatey)**
 
 ## OS configuration
 
-### Clipboard Management
+### Clipboard manager
 
 1. Install **[CopyQ](https://copyq.readthedocs.io/en/latest/)**: `choco install copyq`
 2. Open CopyQ, go to **Preferences** and change the settings as follows:
@@ -19,7 +19,7 @@ Install **[Chocolatey](https://docs.chocolatey.org/en-us/choco/setup#installing-
 1. Install [WSL2](https://docs.microsoft.com/en-us/windows/wsl/install)
 2. Install the latest [Ubuntu LTS](https://wiki.ubuntu.com/Releases) version from the [Microsoft Store](https://www.microsoft.com/en-au/p/ubuntu-20044-lts/9mttcl66cpxj#activetab=pivot:overviewtab)
 
-## Monospace Font
+## Monospace font
 
 Install **[Fira Code](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode)**: `choco install firacode`
 

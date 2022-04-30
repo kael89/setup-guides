@@ -1,6 +1,6 @@
 # Setting up a MacOS dev environment
 
-## Packet Management
+## Packet manager
 
 Install **[brew](https://brew.sh/)**
 
@@ -19,7 +19,7 @@ Install **[brew](https://brew.sh/)**
 
 Install **[Rectangle](https://rectangleapp.com/)**: `brew install --cask rectangle`
 
-### Clipboard Management
+### Clipboard manager
 
 1. Install **[Clipy](https://github.com/Clipy/Clipy)**: `brew install --cask clipy`
 2. Open Clipy, go to **Preferences -> Menu** and change the settings as follows:
@@ -27,7 +27,7 @@ Install **[Rectangle](https://rectangleapp.com/)**: `brew install --cask rectang
    - **Number of items place _(sic)_ inline:** 10
    - **Number of characters in the menu:** 40
 
-## Monospace Font
+## Monospace font
 
 Install **[Fira Code](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode):**
 
