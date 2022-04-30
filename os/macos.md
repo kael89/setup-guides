@@ -50,7 +50,21 @@ brew install --cask font-fira-code
 1. **[zsh](https://www.zsh.org/)** should be the default shell in newer MacOS versions. Follow [these steps](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#macos) if this is not the case
 2. Install **[oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh#basic-installation)**, a zsh plugin manager
 3. Install my custom [oh-my-zsh configuration](https://github.com/kael89/ohmyzsh-config#setup)
-4. Install **[Powerlevel10k](https://github.com/romkatv/powerlevel10k#oh-my-zsh)**, an oh-my-zsh theme
+4. Install **[Powerlevel10k](https://github.com/romkatv/powerlevel10k#oh-my-zsh)**, an oh-my-zsh theme.
+
+   > **Tip:** the first time you open your terminal after installing Powerlevel10k, a configuration wizard will appear. You can go through all the settings at once by pasting the following code: `ynn312111111y1y`. This sets the following:
+   >
+   > - **Prompt style:** Rainbow
+   > - **Character set:** Unicode
+   > - **Show current time?** 24-hour format
+   > - **Prompt Separators:** Angled
+   > - **Prompt Heads:** Sharp
+   > - **Prompt Tails:** Flat
+   > - **Prompt Height:** One line
+   > - **Prompt Spacing:** Compact
+   > - **Prompt Flow:** Concise
+   > - **Enable Transient Prompt?** Yes
+   > - **Instant Prompt Mode:** Verbose
 
 ## IDE
 
