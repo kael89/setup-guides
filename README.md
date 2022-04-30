@@ -8,3 +8,4 @@ This repository is a collection of setup guides for development environments and
 
 - [MacOS](os/macos.md)
 - [Ubuntu](os/ubuntu.md)
+- [Windows](os/windows.md)
