@@ -7,6 +7,7 @@
 - Try zsh-syntax-highlighting
 - Research how to expand text efficiently (eg my email address)
 - Table of IDE shortcuts
+- Check for missing sections across OS
 
 ## MacOS
 
