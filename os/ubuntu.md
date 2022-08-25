@@ -20,6 +20,26 @@ Install **[Fira Code](https://github.com/tonsky/FiraCode/wiki/Linux-instructions
 
 ## IDE
 
+### IntelliJ IDEA
+
+1. Install [Jetbrains Toolbox](https://www.jetbrains.com/help/idea/installation-guide.html#6ce14e72)
+2. Use the Toolbox to install **IntelliJ IDEA Community Edition**
+3. Sync your settings using a repository
+
+   - Open the app and go to **File -> Manage IDE Settings -> Settings Repository**
+   - Set the Upstream URL to https://github.com/kael89/intellij-config
+   - Click **Merge**
+
+   You may want to adjust the following settings, as there is no way to exclude them from being shared:
+
+   - Font size
+
+4. Plugins are not synced through Settings Repository, so we have to install them manually:
+
+   - Atom Material Icons
+   - Material Theme UI
+   - VSCode Keymap
+
 ### Visual Studio Code
 
 1. Install **[VSCode](https://code.visualstudio.com/docs/setup/linux#_debian-and-ubuntu-based-distributions)**
