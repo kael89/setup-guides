@@ -82,6 +82,8 @@ brew install --cask font-fira-code
    - **Editor: Font Family:** add `'FiraMono Nerd Font'` at the start of the list
    - **Terminal > Integrated: Font Family:** `'FiraMono Nerd Font'`
 
+## Programming Languages
+
 ## JavaScript/TypeScript
 
 1. Install **[nvm](https://github.com/nvm-sh/nvm#installing-and-updating)** for managing node versions

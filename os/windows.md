@@ -90,7 +90,9 @@ Install **[Fira Code](https://github.com/ryanoasis/nerd-fonts/tree/master/patche
    - **Editor: Font Family:** add `'Fira Code'` at the start of the list
    - **Terminal > Integrated: Font Family:** `'Fira Code'`
 
-## JavaScript/TypeScript
+## Programming Languages
+
+### JavaScript/TypeScript
 
 Under WSL:
 

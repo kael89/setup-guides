@@ -34,7 +34,9 @@ Install **[Fira Code](https://github.com/tonsky/FiraCode/wiki/Linux-instructions
    - **Editor: Font Family:** add `'Fira Code'` at the start of the list
    - **Terminal > Integrated: Font Family:** `'Fira Code'`
 
-## JavaScript/TypeScript
+## Programming Languages
+
+### JavaScript/TypeScript
 
 1. Install **[nvm](https://github.com/nvm-sh/nvm#installing-and-updating)** for managing node versions
 2. Use `nvm` to install a node version of your choice, e.g. `nvm install 16`. This will also install `npm`
