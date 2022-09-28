@@ -44,6 +44,7 @@ brew install --cask font-fira-code
 2. Open iTerm2, go to **Preferences -> Profiles** and edit the default profile as follows:
    - **Text → Font**: FiraMono Nerd Font Mono
    - **Terminal → Scrollback lines**: 5,000
+   - **Keys → Key Mappings -> Presets**: Natural Text Editing
 
 ### Shell
 
