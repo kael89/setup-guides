@@ -76,7 +76,7 @@ brew install --cask font-fira-code --cask font-fira-code-nerd-font
 3. Sync your settings using a repository
 
    - Open the app and go to **File -> Manage IDE Settings -> Settings Repository**
-   - Set the Upstream URL to https://github.com/kael89/intellij-config
+   - Set the Upstream URL to `https://github.com/kael89/intellij-config`
    - Click **Merge**
 
    You may want to adjust the following settings, as there is no way to exclude them from being shared:
