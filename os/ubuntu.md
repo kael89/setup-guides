@@ -12,18 +12,18 @@ We will use `apt`/`apt-get`, which is installed in Ubuntu by default.
 
 ### Clipboard manager
 
-Install **[CopyQ](https://github.com/hluk/CopyQ#debian-10-ubuntu-1804-and-their-derivatives/)**
+Install [CopyQ](https://github.com/hluk/CopyQ#debian-10-ubuntu-1804-and-their-derivatives/)
 
 ## Monospace font
 
-Install **[Fira Code](https://github.com/tonsky/FiraCode)**:
+Install [Fira Code](https://github.com/tonsky/FiraCode):
 
 ```bash
 sudo add-apt-repository universe
 sudo apt install fonts-firacode
 ```
 
-Install **[Fira Code Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode)**:
+Install [Fira Code Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode):
 
 - Download the font from [this link](https://github.com/ryanoasis/nerd-fonts/releases/latest/download/FiraCode.zip)
 - Install `Fira Code Regular Nerd Font Complete.ttf`
@@ -62,7 +62,7 @@ Open Terminal, go to **Preferences -> Profiles** and edit your profile as follow
 
 ### Visual Studio Code
 
-1. Install **[VSCode](https://code.visualstudio.com/docs/setup/linux#_debian-and-ubuntu-based-distributions)**
+1. Install [VSCode](https://code.visualstudio.com/docs/setup/linux#_debian-and-ubuntu-based-distributions)
 2. Turn on Settings Sync:
 
    - Open the app and go to **File -> Preferences -> Turn on Settings Sync...**
@@ -78,6 +78,6 @@ Open Terminal, go to **Preferences -> Profiles** and edit your profile as follow
 
 ### JavaScript/TypeScript
 
-1. Install **[nvm](https://github.com/nvm-sh/nvm#installing-and-updating)** for managing node versions
+1. Install [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) for managing node versions
 2. Use `nvm` to install a node version of your choice, e.g. `nvm install 16`. This will also install `npm`
-3. Install **[yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)**: `npm install --global yarn`
+3. Install [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable): `npm install --global yarn`

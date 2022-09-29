@@ -2,13 +2,13 @@
 
 ## Packet manager
 
-Install **[Chocolatey](https://docs.chocolatey.org/en-us/choco/setup#installing-chocolatey)**
+Install [Chocolatey](https://docs.chocolatey.org/en-us/choco/setup#installing-chocolatey)
 
 ## OS configuration
 
 ### Clipboard manager
 
-1. Install **[CopyQ](https://copyq.readthedocs.io/en/latest/)**: `choco install copyq`
+1. Install [CopyQ](https://copyq.readthedocs.io/en/latest/): `choco install copyq`
 2. Open CopyQ, go to **Preferences** and change the settings as follows:
 
    - **Shortcuts:** set the shortcut for **Show/hide main window** to `Ctrl + Shift + V`:
@@ -21,13 +21,13 @@ Install **[Chocolatey](https://docs.chocolatey.org/en-us/choco/setup#installing-
 
 ## Monospace font
 
-Install **[Fira Code](https://github.com/tonsky/FiraCode)** and its [Nerd Font version](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode): `choco install firacode firacodenf`
+Install [Fira Code](https://github.com/tonsky/FiraCode) and its [Nerd Font version](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode): `choco install firacode firacodenf`
 
 ## Terminal
 
 ### Terminal app
 
-1. Install **[Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/)**: `choco install microsoft-windows-terminal`
+1. Install [Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/): `choco install microsoft-windows-terminal`
 2. Open the app Settings and select **Open JSON file**. Set the following settings:
 
    ```jsonc
@@ -49,16 +49,16 @@ Install **[Fira Code](https://github.com/tonsky/FiraCode)** and its [Nerd Font v
 
 ### Shell
 
-1. Install **[zsh](https://www.zsh.org/)**:
+1. Install [zsh](https://www.zsh.org/):
 
    ```bash
    sudo apt install zsh
    chsh -s $(which zsh)
    ```
 
-2. Install **[oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh#basic-installation)**, a zsh plugin manager
+2. Install [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh#basic-installation), a zsh plugin manager
 3. Install my custom [oh-my-zsh configuration](https://github.com/kael89/ohmyzsh-config#setup)
-4. Install **[Powerlevel10k](https://github.com/romkatv/powerlevel10k#oh-my-zsh)**, an oh-my-zsh theme.
+4. Install [Powerlevel10k](https://github.com/romkatv/powerlevel10k#oh-my-zsh), an oh-my-zsh theme.
 
    > **Tip:** the first time you open your terminal after installing Powerlevel10k, a configuration wizard will appear. You can go through all the settings at once by pasting the following code: `ynn312111111y1y`. This sets the following:
    >
@@ -98,7 +98,7 @@ Install **[Fira Code](https://github.com/tonsky/FiraCode)** and its [Nerd Font v
 
 ### Visual Studio Code
 
-1. Install **[VSCode](https://code.visualstudio.com/)**: `choco install vscode`
+1. Install [VSCode](https://code.visualstudio.com/): `choco install vscode`
 2. Turn on Settings Sync:
 
    - Open the app and go to **File -> Preferences -> Turn on Settings Sync...**
@@ -116,6 +116,6 @@ Install **[Fira Code](https://github.com/tonsky/FiraCode)** and its [Nerd Font v
 
 Under WSL:
 
-1. Install **[nvm](https://github.com/nvm-sh/nvm#installing-and-updating)** for managing node versions
+1. Install [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) for managing node versions
 2. Use `nvm` to install a node version of your choice, e.g. `nvm install 16`. This will also install `npm`
-3. Install **[yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)**: `npm install --global yarn`
+3. Install [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable): `npm install --global yarn`
