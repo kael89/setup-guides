@@ -29,11 +29,11 @@ Install **[Rectangle](https://rectangleapp.com/)**: `brew install --cask rectang
 
 ## Monospace font
 
-Install **[Fira Code](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode):**
+Install **[Fira Code](https://github.com/tonsky/FiraCode)** and its [Nerd Font version](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode):
 
 ```bash
 brew tap homebrew/cask-fonts
-brew install --cask font-fira-code
+brew install --cask font-fira-code --cask font-fira-code-nerd-font
 ```
 
 ## Terminal
@@ -42,7 +42,7 @@ brew install --cask font-fira-code
 
 1. Install **[iTerm2](https://iterm2.com/)**: `brew install --cask iterm2`
 2. Open iTerm2, go to **Preferences -> Profiles** and edit the default profile as follows:
-   - **Text → Font**: FiraMono Nerd Font Mono
+   - **Text → Font**: FiraCode Nerd Font
    - **Terminal → Scrollback lines**: 5,000
    - **Keys → Key Mappings -> Presets**: Natural Text Editing
 
@@ -98,10 +98,10 @@ brew install --cask font-fira-code
    - Sign in using your GitHub account
    - If you are syncing a new machine and are prompted to merge/replace your settings, you can use "Replace Local"
 
-   Note: with the exception of keybindings, VSCode currently does not support [platform-specific settings](https://github.com/microsoft/vscode/issues/5595). Thus, we have to manually update the following settings to [prevent them from syncing](https://code.visualstudio.com/docs/editor/settings-sync#_configuring-synced-data) in our machine:
+   Note: with the exception of keybindings, VSCode does not support [platform-specific settings](https://github.com/microsoft/vscode/issues/5595) yet. We have excluded some settings from syncing to avoid cross-platform conflicts. We have to manually set those in our machine:
 
-   - **Editor: Font Family:** add `'FiraMono Nerd Font'` at the start of the list
-   - **Terminal > Integrated: Font Family:** `'FiraMono Nerd Font'`
+   - **Editor: Font Family:** add `'Fira Code'` at the start of the list
+   - **Terminal > Integrated: Font Family:** `'FiraCode Nerd Font'`
 
 ## Programming Languages
 

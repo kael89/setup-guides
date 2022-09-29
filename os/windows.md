@@ -21,7 +21,7 @@ Install **[Chocolatey](https://docs.chocolatey.org/en-us/choco/setup#installing-
 
 ## Monospace font
 
-Install **[Fira Code](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode)**: `choco install firacode`
+Install **[Fira Code](https://github.com/tonsky/FiraCode)** and its [Nerd Font version](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode): `choco install firacode firacodenf`
 
 ## Terminal
 
@@ -36,7 +36,7 @@ Install **[Fira Code](https://github.com/ryanoasis/nerd-fonts/tree/master/patche
      "profiles": {
        "defaults": {
          "font": {
-           "face": "Fira Code",
+           "face": "FiraCode NF",
            "size": 10
          }
        },
@@ -105,10 +105,10 @@ Install **[Fira Code](https://github.com/ryanoasis/nerd-fonts/tree/master/patche
    - Sign in using your GitHub account
    - If you are syncing a new machine and are prompted to merge/replace your settings, you can use "Replace Local"
 
-   Note: with the exception of keybindings, VSCode currently does not support [platform-specific settings](https://github.com/microsoft/vscode/issues/5595). Thus, we have to manually update the following settings to [prevent them from syncing](https://code.visualstudio.com/docs/editor/settings-sync#_configuring-synced-data) in our machine:
+   Note: with the exception of keybindings, VSCode does not support [platform-specific settings](https://github.com/microsoft/vscode/issues/5595) yet. We have excluded some settings from syncing to avoid cross-platform conflicts. We have to manually set those in our machine:
 
    - **Editor: Font Family:** add `'Fira Code'` at the start of the list
-   - **Terminal > Integrated: Font Family:** `'Fira Code'`
+   - **Terminal > Integrated: Font Family:** `'FiraCode NF'`
 
 ## Programming Languages
 

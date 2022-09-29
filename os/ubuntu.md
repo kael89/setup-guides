@@ -16,7 +16,27 @@ Install **[CopyQ](https://github.com/hluk/CopyQ#debian-10-ubuntu-1804-and-their-
 
 ## Monospace font
 
-Install **[Fira Code](https://github.com/tonsky/FiraCode/wiki/Linux-instructions#ubuntu-zesty-1704-debian-stretch-9-or-newer)**
+Install **[Fira Code](https://github.com/tonsky/FiraCode)**:
+
+```bash
+sudo add-apt-repository universe
+sudo apt install fonts-firacode
+```
+
+Install **[Fira Code Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode)**:
+
+- Download the font from [this link](https://github.com/ryanoasis/nerd-fonts/releases/latest/download/FiraCode.zip)
+- Install `Fira Code Regular Nerd Font Complete.ttf`
+
+## Terminal
+
+### Terminal app
+
+We will use the default Terminal app.
+
+Open Terminal, go to **Preferences -> Profiles** and edit your profile as follows:
+
+- **Text → Custom Font**: Enable and select "FiraCode Nerd Font Regular"
 
 ## IDE
 
@@ -49,10 +69,10 @@ Install **[Fira Code](https://github.com/tonsky/FiraCode/wiki/Linux-instructions
    - Sign in using your GitHub account
    - If you are syncing a new machine and are prompted to merge/replace your settings, you can use "Replace Local"
 
-   Note: with the exception of keybindings, VSCode currently does not support [platform-specific settings](https://github.com/microsoft/vscode/issues/5595). Thus, we have to manually update the following settings to [prevent them from syncing](https://code.visualstudio.com/docs/editor/settings-sync#_configuring-synced-data) in our machine:
+   Note: with the exception of keybindings, VSCode does not support [platform-specific settings](https://github.com/microsoft/vscode/issues/5595) yet. We have excluded some settings from syncing to avoid cross-platform conflicts. We have to manually set those in our machine:
 
    - **Editor: Font Family:** add `'Fira Code'` at the start of the list
-   - **Terminal > Integrated: Font Family:** `'Fira Code'`
+   - **Terminal > Integrated: Font Family:** `'FiraCode Nerd Font'`
 
 ## Programming Languages
 
