@@ -32,7 +32,7 @@ Install [Fira Code Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/maste
 
 ### Terminal app
 
-We will use the default Terminal app.
+We will use the default terminal app + [tmux](https://github.com/tmux/tmux/wiki) for window management: `sudo apt install tmux`
 
 Open Terminal, go to **Preferences -> Profiles** and edit your profile as follows:
 
