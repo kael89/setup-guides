@@ -32,6 +32,43 @@ Install [Fira Code](https://github.com/tonsky/FiraCode) and its [Nerd Font versi
 
    ```jsonc
    {
+     "actions": [
+       {
+         "command": "paste",
+         "keys": "ctrl+v"
+       },
+       {
+         "command": "find",
+         "keys": "ctrl+shift+f"
+       },
+       {
+         "command": {
+           "action": "copy",
+           "singleLine": false
+         },
+         "keys": "ctrl+c"
+       },
+       {
+         "command": {
+           "action": "splitPane",
+           "split": "auto",
+           "splitMode": "duplicate"
+         },
+         "keys": "alt+shift+d"
+       },
+       {
+         "command": "unbound",
+         "keys": "ctrl+shift+w"
+       },
+       {
+         "command": "unbound",
+         "keys": "ctrl+shift+v"
+       },
+       {
+         "command": "closePane",
+         "keys": "ctrl+w"
+       }
+     ],
      "defaultProfile": "{guid_for_your_wsl_profile}",
      "profiles": {
        "defaults": {
