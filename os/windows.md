@@ -111,7 +111,7 @@ Install [Fira Code](https://github.com/tonsky/FiraCode) and its [Nerd Font versi
    > - **Enable Transient Prompt?** Yes
    > - **Instant Prompt Mode:** Verbose
 
-## IDE
+## IDEs
 
 ### IntelliJ IDEA
 
