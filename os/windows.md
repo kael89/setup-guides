@@ -6,6 +6,11 @@ Install [Chocolatey](https://docs.chocolatey.org/en-us/choco/setup#installing-ch
 
 ## OS configuration
 
+### Window Management
+
+1. Install [Sizer](http://www.brianapps.net/sizer/): `choco install sizer`
+2. Follow the instructions in [window-management.md](/shortcuts/window-management.md) to setup the desired shortcuts
+
 ### Clipboard manager
 
 1. Install [CopyQ](https://copyq.readthedocs.io/en/latest/): `choco install copyq`
@@ -156,3 +161,7 @@ Under WSL:
 1. Install [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) for managing node versions
 2. Use `nvm` to install a node version of your choice, e.g. `nvm install 16`. This will also install `npm`
 3. Install [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable): `npm install --global yarn`
+
+## Tools
+
+- Install [AutoHotkey](https://www.autohotkey.com/)

@@ -1,0 +1,90 @@
+<group description="Custom" hotKey="0" hotKeyModifiers="0" hotKeyExtended="0">
+    <macro description="Left Half" hotKey="37" hotKeyModifiers="3" hotKeyExtended="1">resize
+	t = t:mon:active
+	l = l:mon:active
+	w = 0.5 * w:mon:active
+	h = h:mon:active
+    </macro>
+    <macro description="Right Half" hotKey="39" hotKeyModifiers="3" hotKeyExtended="1">resize
+	t = t:mon:active
+	l = l:mon:active + 0.5 * w:mon:active
+	w = 0.5 * w:mon:active
+	h = h:mon:active
+    </macro>
+    <macro description="Top Half" hotKey="38" hotKeyModifiers="3" hotKeyExtended="1">resize
+	t = t:mon:active
+	l = l:mon:active
+	w = w:mon:active
+	h = 0.5 * h:mon:active
+    </macro>
+    <macro description="Bottom Half" hotKey="40" hotKeyModifiers="3" hotKeyExtended="1">resize
+	t = t:mon:active + 0.5 * h:mon:active
+	l = l:mon:active
+	w = w:mon:active
+	h = 0.5 * h:mon
+    </macro>
+    <macro description="Top Left" hotKey="85" hotKeyModifiers="3" hotKeyExtended="0">resize
+	t = t:mon:active
+	l = l:mon:active
+	w = 0.5 * w:mon:active
+	h = 0.5 * h:mon:active
+    </macro>
+    <macro description="Top Right" hotKey="73" hotKeyModifiers="3" hotKeyExtended="0">resize
+	t = t:mon:active
+	l = l:mon:active + 0.5 * w:mon:active
+	w = 0.5 * w:mon:active
+	h = 0.5 * h:mon:active
+    </macro>
+    <macro description="Bottom Left" hotKey="74" hotKeyModifiers="3" hotKeyExtended="0">resize
+	t = t:mon:active + 0.5 * h:mon:active
+	l = l:mon:active
+	w = 0.5 * w:mon:active
+	h = 0.5 * h:mon
+    </macro>
+    <macro description="Bottom Right" hotKey="75" hotKeyModifiers="3" hotKeyExtended="0">resize
+	t = t:mon:active + 0.5 * h:mon:active
+	l = l:mon:active + 0.5 * w:mon:active
+	w = 0.5 * w:mon:active
+	h = 0.5 * h:mon
+    </macro>
+    <macro description="First Third" hotKey="68" hotKeyModifiers="3" hotKeyExtended="0">resize
+	t = t:mon:active
+	l = l:mon:active
+	w = 0.33 * w:mon:active
+	h = h:mon:active
+    </macro>
+    <macro description="First Two Thirds" hotKey="69" hotKeyModifiers="3" hotKeyExtended="0">resize
+	t = t:mon:active
+	l = l:mon:active
+	w = 0.67 * w:mon:active
+	h = h:mon:active
+    </macro>
+    <macro description="Last Two Thirds" hotKey="84" hotKeyModifiers="3" hotKeyExtended="0">resize
+	t = t:mon:active
+	l = l:mon:active + 0.33 * w:mon:active
+	w = 0.67 * w:mon:active
+	h = h:mon:active
+    </macro>
+    <macro description="Last Third" hotKey="71" hotKeyModifiers="3" hotKeyExtended="0">resize
+	t = t:mon:active
+	l = l:mon:active + 0.67 * w:mon:active
+	w = 0.33 * w:mon:active
+	h = h:mon:active
+    </macro>
+    <macro description="Maximize" hotKey="13" hotKeyModifiers="3" hotKeyExtended="0">resize
+	t = t:mon:active
+	l = l:mon:active
+	w = w:mon:active
+	h = h:mon:active
+    </macro>
+    <macro description="Minimize" hotKey="46" hotKeyModifiers="8" hotKeyExtended="1">resize
+	minimize
+
+    </macro>
+    <macro description="Right Display" hotKey="39" hotKeyModifiers="11" hotKeyExtended="1">resize
+	l = w:mon:active + (l:win:active - l:mon:active)
+    </macro>
+    <macro description="Left Display" hotKey="37" hotKeyModifiers="11" hotKeyExtended="1">resize
+	l = l:win:active - l:mon:active
+    </macro>
+</group>
