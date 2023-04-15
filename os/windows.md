@@ -24,6 +24,20 @@ Install [Chocolatey](https://docs.chocolatey.org/en-us/choco/setup#installing-ch
 1. Install [WSL2](https://docs.microsoft.com/en-us/windows/wsl/install)
 2. Install the latest [Ubuntu LTS](https://wiki.ubuntu.com/Releases) version from the [Microsoft Store](https://www.microsoft.com/en-au/p/ubuntu-20044-lts/9mttcl66cpxj#activetab=pivot:overviewtab)
 
+### Configure startup apps
+
+1. Hit `Ctrl + R`
+2. Type `shell:startup` to open the **Start-up** folder. Any app placed here will launch on Windows startup
+3. For each app that should run on startup:
+   - Locate it in the Start Menu
+   - Right click and **Open File Location**
+   - Copy the app shortcut in the Start-up folder from step 1
+
+Do step 3 for the following apps:
+
+- CopyQ
+- Sizer
+
 ## Monospace font
 
 Install [Fira Code](https://github.com/tonsky/FiraCode) and its [Nerd Font version](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode): `choco install firacode firacodenf`
