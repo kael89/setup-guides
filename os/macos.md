@@ -45,6 +45,7 @@ brew install --cask font-fira-code --cask font-fira-code-nerd-font
    - **Text → Font**: FiraCode Nerd Font
    - **Terminal → Scrollback lines**: 5,000
    - **Keys → Key Mappings -> Presets**: Natural Text Editing
+3. (Optional) Change the font for Terminal (MacOS default) to FiraCode Nerd Font
 
 ### Shell
 
