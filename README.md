@@ -4,10 +4,10 @@ This repository is a collection of setup guides for development environments and
 
 ## Operating System setup
 
-- [MacOS](/os/macos.md)
-- [Ubuntu](/os/ubuntu.md)
-- [Windows](/os/windows.md)
+- [MacOS](/docs/os/macos.md)
+- [Ubuntu](/docs/os/ubuntu.md)
+- [Windows](/docs/os/windows.md)
 
 ## Shortcuts
 
-- [Window Management](/shortcuts/window-management.md)
+- [Window Management](/docs/shortcuts/window-management.md)
