@@ -44,28 +44,15 @@ Open Terminal, go to **Preferences -> Profiles** and edit your profile as follow
 
 1. Install [Jetbrains Toolbox](https://www.jetbrains.com/help/idea/installation-guide.html#6ce14e72)
 2. Use the Toolbox to install **IntelliJ IDEA Community Edition**
-3. Sync your settings using a repository
-
-   - Open the app and go to **File -> Manage IDE Settings -> Settings Repository**
-   - Set the Upstream URL to `https://github.com/kael89/intellij-config`
-   - Click **Merge**
-
-   You may want to adjust the following settings, as there is no way to exclude them from being shared:
-
-   - Font size
-
-4. Plugins are not synced through Settings Repository, so we have to install them manually:
-
-   - Atom Material Icons
-   - Material Theme UI
-   - VSCode Keymap
+3. **File -> Manage IDE Settings -> Settings Sync...** and Enable Settings Sync
+4. Restart the app to enable plugins
 
 ### Visual Studio Code
 
 1. Install [VSCode](https://code.visualstudio.com/docs/setup/linux#_debian-and-ubuntu-based-distributions)
 2. Turn on Settings Sync:
 
-   - Open the app and go to **File -> Preferences -> Turn on Settings Sync...**
+   - Open the app and go to **File -> Preferences -> Back up and sync settings**
    - Sign in using your GitHub account
    - If you are syncing a new machine and are prompted to merge/replace your settings, you can use "Replace Local"
 

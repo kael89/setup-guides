@@ -8,7 +8,7 @@ Install [brew](https://brew.sh/)
 
 ### Keyboard
 
-1. Go to **Preferences -> Keyboard -> Shortcuts** tab, and select "Use keyboard navigation to move focus between controls"
+1. Go to **Preferences -> Keyboard** tab, and enable "Keyboard navigation"
 2. If using a non-Mac keyboard:
 
    - System **Preferences -> Keyboard -> Modifier Keys** button
@@ -32,7 +32,6 @@ Install [Rectangle](https://rectangleapp.com/): `brew install --cask rectangle`
 Install [Fira Code](https://github.com/tonsky/FiraCode) and its [Nerd Font version](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode):
 
 ```bash
-brew tap homebrew/cask-fonts
 brew install --cask font-fira-code --cask font-fira-code-nerd-font
 ```
 
@@ -72,30 +71,16 @@ brew install --cask font-fira-code --cask font-fira-code-nerd-font
 
 ### IntelliJ IDEA
 
-1. Install [Jetbrains Toolbox](https://www.jetbrains.com/help/idea/installation-guide.html#730dbbee)
-2. Use the Toolbox to install **IntelliJ IDEA Community Edition**
-3. Sync your settings using a repository
-
-   - Open the app and go to **File -> Manage IDE Settings -> Settings Repository**
-   - Set the Upstream URL to `https://github.com/kael89/intellij-config`
-   - Click **Merge**
-
-   You may want to adjust the following settings, as there is no way to exclude them from being shared:
-
-   - Font size
-
-4. Plugins are not synced through Settings Repository, so we have to install them manually:
-
-   - Atom Material Icons
-   - Material Theme UI
-   - VSCode Keymap
+1. `brew install --cask intellij-idea-ce`
+2. **File -> Manage IDE Settings -> Settings Sync...** and Enable Settings Sync
+3. Restart the app to enable plugins
 
 ### Visual Studio Code
 
 1. Install [VSCode](https://code.visualstudio.com/): `choco install vscode`
 2. Turn on Settings Sync:
 
-   - Open the app and go to **Code -> Preferences -> Turn on Settings Sync...**
+   - Open the app and go to **Code -> Settings -> Back up and sync settings**
    - Sign in using your GitHub account
    - If you are syncing a new machine and are prompted to merge/replace your settings, you can use "Replace Local"
 
@@ -109,5 +94,11 @@ brew install --cask font-fira-code --cask font-fira-code-nerd-font
 ## JavaScript/TypeScript
 
 1. Install [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) for managing node versions
-2. Use `nvm` to install a node version of your choice, e.g. `nvm install 16`. This will also install `npm`
+2. Use `nvm` to install a node version of your choice, e.g. `nvm install 22`. This will also install `npm`
 3. Install [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable): `npm install --global yarn`
+
+## Java
+
+1. Install **Java 21** (Amazon Corretto): `brew install --cask corretto@21`
+2. Install `jenv` to manage Java versions: `brew install jenv`
+3. Add Java 21 to your jenv versions: `jenv add /Library/Java/JavaVirtualMachines/amazon-corretto-21.jdk/Contents/Home`
