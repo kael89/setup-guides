@@ -17,7 +17,10 @@ Install [brew](https://brew.sh/)
 
 ### Window Management
 
-Install [Rectangle](https://rectangleapp.com/): `brew install --cask rectangle`
+1. Install [Rectangle](https://rectangleapp.com/): `brew install --cask rectangle`
+2. Go to **Settings -> settings tab (3rd tab)** and enable:
+   - Launch on login
+   - Hide menu bar icon
 
 ### Clipboard manager
 
@@ -41,9 +44,13 @@ brew install --cask font-fira-code --cask font-fira-code-nerd-font
 
 1. Install [iTerm2](https://iterm2.com/): `brew install --cask iterm2`
 2. Open iTerm2, go to **Preferences -> Profiles** and edit the default profile as follows:
-   - **Text → Font**: FiraCode Nerd Font
-   - **Terminal → Scrollback lines**: 5,000
-   - **Keys → Key Mappings -> Presets**: Natural Text Editing
+   - **Text**
+     - Font: FiraCode Nerd Font
+     - Enable "Use ligatures"
+   - **Terminal**
+     - Scrollback lines: 5,000
+   - **Keys**
+     - Key Mappings -> Presets: Natural Text Editing
 3. (Optional) Change the font for Terminal (MacOS default) to FiraCode Nerd Font
 
 ### Shell
@@ -77,7 +84,7 @@ brew install --cask font-fira-code --cask font-fira-code-nerd-font
 
 ### Visual Studio Code
 
-1. Install [VSCode](https://code.visualstudio.com/): `choco install vscode`
+1. Install [VSCode](https://code.visualstudio.com/): `brew install --cask visual-studio-code`
 2. Turn on Settings Sync:
 
    - Open the app and go to **Code -> Settings -> Back up and sync settings**
