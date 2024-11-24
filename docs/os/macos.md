@@ -74,6 +74,10 @@ brew install --cask font-fira-code --cask font-fira-code-nerd-font
    > - **Enable Transient Prompt?** Yes
    > - **Instant Prompt Mode:** Verbose
 
+## VCS
+
+See [git.md](../git.md)
+
 ## IDEs
 
 ### IntelliJ IDEA

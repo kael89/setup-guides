@@ -38,6 +38,10 @@ Open Terminal, go to **Preferences -> Profiles** and edit your profile as follow
 
 - **Text → Custom Font**: Enable and select "FiraCode Nerd Font Regular"
 
+## VCS
+
+See [git.md](../git.md)
+
 ## IDEs
 
 ### IntelliJ IDEA
