@@ -8,12 +8,19 @@ Install [brew](https://brew.sh/)
 
 ### Keyboard
 
-1. Go to **Preferences -> Keyboard** tab, and enable "Keyboard navigation"
-2. If using a non-Mac keyboard:
+1. Open **System Settings** and go to **Keyboard**
+1. Enable "Keyboard navigation"
+1. If using a non-Mac keyboard:
 
-   - System **Preferences -> Keyboard -> Modifier Keys** button
+   - Search for **Modifier Keys** in System Settings
    - Select your keyboard from the list
    - Swap the **Option** and **Command** keys
+
+### Trackpad
+
+1. Open **System Settings** and go to **Trackpad**
+2. Enable "Tap to click"
+3. Go to the **Scroll & Zoom** and disable "Natural Scrolling"
 
 ### Window Management
 
