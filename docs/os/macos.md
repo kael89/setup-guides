@@ -9,7 +9,7 @@ Install [brew](https://brew.sh/)
 ### Keyboard
 
 1. Open **System Settings** and go to **Keyboard**
-1. Enable "Keyboard navigation"
+1. Enable "Keyboard navigation" to allow switching between menu options using the keyboard
 1. If using a non-Mac keyboard:
 
    - Search for **Modifier Keys** in System Settings
