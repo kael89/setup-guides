@@ -90,7 +90,7 @@ See [git.md](../git.md)
 ### IntelliJ IDEA
 
 1. `brew install --cask intellij-idea-ce`
-2. **File -> Manage IDE Settings -> Settings Sync...** and Enable Settings Sync
+2. **Settings -> Backup and Sync -> Login in with Jetbrains Account...**
 3. Restart the app to enable plugins
 
 ### Visual Studio Code
@@ -118,5 +118,5 @@ See [git.md](../git.md)
 ## Java
 
 1. Install **Java 21** (Amazon Corretto): `brew install --cask corretto@21`
-2. Install `jenv` to manage Java versions: `brew install jenv`
+2. Install `jenv` to manage Java versions: `brew install jenv`. Update `.zshrc` as per the installation instructions
 3. Add Java 21 to your jenv versions: `jenv add /Library/Java/JavaVirtualMachines/amazon-corretto-21.jdk/Contents/Home`

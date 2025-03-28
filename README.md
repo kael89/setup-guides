@@ -8,6 +8,11 @@ This repository is a collection of setup guides for development environments and
 - [Ubuntu](/docs/os/ubuntu.md)
 - [Windows](/docs/os/windows.md)
 
+## Tool Guides
+
+- [git](/docs/git.md)
+- [oh-my-zsh](/docs/oh-my-zsh.md)
+
 ## Shortcuts
 
 - [Window Management](/docs/shortcuts/window-management.md)
