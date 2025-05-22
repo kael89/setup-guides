@@ -130,6 +130,31 @@ Install [Fira Code](https://github.com/tonsky/FiraCode) and its [Nerd Font versi
    - **Enable Transient Prompt?** Yes
    - **Instant Prompt Mode:** Verbose
 
+5. Install the following plugins: `zsh-autocomplete`, `zsh-autosuggestions`, `zsh-syntax-highlighting`
+
+   ```
+   git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZSH_CUSTOM/plugins/zsh-autocomplete
+   git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+   git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+   ```
+
+6. Edit `~/.zshrc` and set the list of plugins:
+
+   ```bash
+   # zsh-syntax-highlighting must be last in the list
+   plugins=(git zsh-autocomplete zsh-autosuggestions zsh-syntax-highlighting)
+   ```
+
+### Utilities
+
+- [bat](https://github.com/sharkdp/bat?tab=readme-ov-file#on-macos-or-linux-via-homebrew)
+
+  Add the following to `~/.zshrc` to replace `cat` with `bat`:
+
+  ```
+  alias cat="bat"
+  ```
+
 ## VCS
 
 See [git.md](../git.md)

@@ -81,6 +81,41 @@ brew install --cask font-fira-code --cask font-fira-code-nerd-font
    - **Enable Transient Prompt?** Yes
    - **Instant Prompt Mode:** Verbose
 
+5. Install the following plugins: `zsh-autocomplete`, `zsh-autosuggestions`, `zsh-syntax-highlighting`
+
+   ```
+   git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZSH_CUSTOM/plugins/zsh-autocomplete
+   git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+   git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+   ```
+
+6. Edit `~/.zshrc` and set the list of plugins:
+
+   ```bash
+   # zsh-syntax-highlighting must be last in the list
+   plugins=(git zsh-autocomplete zsh-autosuggestions zsh-syntax-highlighting)
+   ```
+
+### Utilities
+
+#### bat
+
+Install using these [instructions](https://github.com/sharkdp/bat?tab=readme-ov-file#on-macos-or-linux-via-homebrew). You can then optionally add the following to `~/.zshrc` to replace `cat` with `bat`:
+
+```
+alias cat="bat"
+```
+
+#### nano
+
+Recent versions of MacOS symlink nano to pico, so we need to install it using
+
+```
+brew install nano
+```
+
+See [scopatz/nanorc](https://github.com/scopatz/nanorc) for improved syntax highlighting.
+
 ## VCS
 
 See [git.md](../git.md)
