@@ -100,11 +100,14 @@ brew install --cask font-fira-code --cask font-fira-code-nerd-font
 
 #### bat
 
-Install using these [instructions](https://github.com/sharkdp/bat?tab=readme-ov-file#on-macos-or-linux-via-homebrew). You can then optionally add the following to `~/.zshrc` to replace `cat` with `bat`:
+1. Install using `brew install bat`
+2. Use `bat --generate-config-file` to generate a config file
+3. _(Optional)_ set the theme to "Visual Studio Dark+" in the config file
+4. _(Optional)_ add the following to `~/.zshrc` to replace `cat` with `bat`:
 
-```
-alias cat="bat"
-```
+   ```
+   alias cat="bat"
+   ```
 
 #### nano
 
