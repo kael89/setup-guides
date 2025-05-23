@@ -81,7 +81,19 @@ brew install --cask font-fira-code --cask font-fira-code-nerd-font
    - **Enable Transient Prompt?** Yes
    - **Instant Prompt Mode:** Verbose
 
-5. Install the following plugins: `zsh-autocomplete`, `zsh-autosuggestions`, `zsh-syntax-highlighting`
+5. Color theme:
+
+   - Download [vira-graphene.itermcolors](<../../configs/Vira Graphene.itermcolors>).
+   - Go to **Settings -> Profiles -> Colors -> Color Presets... -> Imports...** and select the downloaded file.
+   - Edit `~/.p10k.zsh` and change the following settings:
+
+     ```
+     POWERLEVEL9K_DIR_FOREGROUND=0
+     POWERLEVEL9K_DIR_SHORTENED_FOREGROUND=0
+     POWERLEVEL9K_DIR_ANCHOR_FOREGROUND=#1a1a1a
+     ```
+
+6. Install the following plugins: `zsh-autocomplete`, `zsh-autosuggestions`, `zsh-syntax-highlighting`
 
    ```
    git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZSH_CUSTOM/plugins/zsh-autocomplete
@@ -89,7 +101,7 @@ brew install --cask font-fira-code --cask font-fira-code-nerd-font
    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
    ```
 
-6. Edit `~/.zshrc` and set the list of plugins:
+7. Edit `~/.zshrc` and set the list of plugins:
 
    ```bash
    # zsh-syntax-highlighting must be last in the list
